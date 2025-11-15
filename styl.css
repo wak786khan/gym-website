@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: overlay;
+}
+
+
+
+body{
+    background-color: rgb(23, 23, 24);
+    color: white;
+    
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(140, 140, 226);
+    padding: 22px;
+    box-shadow: 0px 2px 6px 2px rgb(23, 23, 24);
+    color: white ;
+}
+
+nav ul li a {
+    margin-inline: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+ul li{
+    list-style: none;
+}
+
+nav ul{
+    margin-right:  63px;
+    margin-top: 6px;
+}
+
+ .logo{
+    font-size: 25px ;
+    margin-left: 33px;
+    color: green;
+ }
+ul li button{
+    width: 100px;
+    height: 33px;
+    background: green;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul li button:hover{
+    border: 2px solid red;
+    background-color: transparent;
+    color: greenyellow;
+    cursor: pointer;
+}
+
+ul li a:hover{
+  color: greenyellow;
+  border-bottom: 2px solid red;
+}
+
+/* main section css */
+/* main */
+.home{
+    display: flex;
+    justify-content: center;
+
+}
+
+.home img{
+   width: 50%;
+   margin-top: 130px;
+   margin-left: -30px;
+}
+
+.home .home-text{
+    margin-top: 200px;
+
+}
+
+.home-text h1{
+    font-size: 50px;
+    color: green;
+}
+
+.home-text h3{
+    margin-top: 22px;
+    font-size: 22px;
+}
+
+.home-text p{
+    margin-top: 22px;
+    color: silver;
+}
+
+.home-text button{
+    margin-top: 22px;
+    font-size: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.home-text button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: green;
+}
+
+/* head section */
+
+.head{
+    text-align: center;
+    padding: 95px;
+}
+
+.head span{
+    color: green;
+}
+
+.our-program{
+    display: flex;
+    justify-content: center;
+}
+
+.our-program .crd{
+    margin-inline: 22px;
+    text-align: center;
+}
+
+.our-program .crd img:hover{
+    width: 103%;
+}
+
+/* plan section */
+
+.ourplan{
+    display: flex;
+    justify-content: center;
+}
+
+.ourplan .card{
+   width: 300px;
+   /* height: 300px; */
+   /* border: 2px solid red; */
+   color: gray;
+   text-align: center;
+   margin-inline: 22px;
+   padding: 4px;
+   height: 450px;
+}
+
+.card i{
+    font-size: 22px;
+    margin-top: 22px;
+    color: orange;
+}
+
+.card h3{
+    margin-top: 22px;
+    color: green;
+}
+
+.card h1{
+    margin-top: 22px;
+    color: green;
+}
+
+.card p{
+    margin-top: 12px;
+    color: silver;
+}
+
+.card button{
+    margin-top: 22px;
+    width: 130px;
+    height: 38 px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.card:hover{
+    transition: 0.7s ease;
+    width: 310px;
+    height: 440px;
+    background-color: rgb(122, 117, 117);
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: green;
+    cursor: pointer;
+}
+
+
+/* read blog section */
+.ourblog{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    
+}
+
+.ourblog .blogcard{
+    width: 300px;
+    height: 400px;
+    margin-inline: 22px;
+    background-color: black;
+}
+
+.blogcard img{
+    width: 100%;
+}
+
+.blogcard p{
+  width: 100%;
+}
+
+.blogcard h3{
+ margin-top: 22px;
+}
+/* 
+.blogText a{
+
+  text-decoration: none;
+  width: 100px;
+  padding: 1px;
+  background-color: green;
+  color: white;
+  position: static;
+  margin-top: 22px;
+  cursor: pointer;
+
+} */
+
+.blogText a {
+  text-decoration: none;
+  width: 100px;
+  padding: 8px;
+  background-color: green;
+  color: white;
+  position: static;
+  margin-top: 22px;
+  cursor: pointer;
+  display: inline-block; /* ✅ This makes margin-top work */
+}
+
+
+.blogText{
+    margin-top: 11px;
+    margin-left: 6px;
+}
+
+/* contact pages */
+
+
+.contactpage{
+    display: flex;
+    justify-content: center;
+}
+
+.contacttext{
+    margin-left: 33px;
+    color: green;
+    margin-top: 94px;
+    font-size: 32px;
+}
+.contactpage img{
+ width: 55%;
+ margin-left: -33px;
+}
+
+.contactcus{
+    text-align: center;
+    margin: 22px;
+}
+
+.contactcus input{
+    padding:8px;
+    width: 350px;
+    height: 33px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin-top: 18px;
+}
+
+.contactcus button{
+     width: 365px;
+     height: 45px;
+     color: white;
+     font-size: 22px;
+     background-color: green;
+     border-radius: 2px;
+     margin-top: 22px;
+     border: none;
+}
+
+.contactcus button:hover{
+    /* border: 2px solid red; */
+    background-color: transparent;
+    color: greenyellow;
+    cursor: pointer;
+}
+
+
+/* footer section */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    padding: 22px;
+    margin-inline: 22px; 
+    box-shadow: 0px 2px 6px 4px white
+}
+
+.footer  .footertext{
+    margin-inline: 73px;
+    /* border: 2px solid red; */
+    margin-top: 33px;
+}
+
+.footertext p{
+  margin-top: 11px;
+  color: silver;
+}
+
+
+/* media quarry  */
+/* MEDIA QUERIES */
+
+/* Tablets and small laptops */
+@media (max-width: 992px) {
+  nav {
+    flex-wrap: wrap;
+    padding: 16px;
+  }
+
+  nav ul {
+    margin-top: 10px;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  nav ul li a {
+    font-size: 15px;
+  }
+
+  ul li button {
+    width: 90px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .home {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home img {
+    width: 80%;
+    margin: 30px 0 0 0;
+  }
+
+  .home-text {
+    margin-top: 150px;
+  }
+
+  .our-program,
+  .ourplan,
+  .ourblog,
+  .footer {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .our-program .crd,
+  .ourplan .card,
+  .ourblog .blogcard,
+  .footer .footertext {
+    margin: 10px;
+  }
+
+  .contactpage {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactpage img {
+    width: 80%;
+    margin: 20px 0;
+  }
+
+  .contacttext {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .contactcus input,
+  .contactcus button {
+    width: 90%;
+  }
+}
+
+/* Phones */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  .home-text h1 {
+    font-size: 36px;
+  }
+
+  .home-text h3 {
+    font-size: 18px;
+  }
+
+  .our-program,
+  .ourplan,
+  .ourblog,
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+
+  .footer .footertext {
+    margin-inline: 10px;
+  }
+
+  .contactcus input,
+  .contactcus button {
+    width: 95%;
+  }
+}
+
+/* HAMBURGER MENU STYLE */
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: white;
+  margin-right: 30px;
+}
+
+/* for small screens */
+@media (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    width: 100%;
+    background-color: rgb(140, 140, 226);
+    text-align: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  nav ul li {
+    width: 100%;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 10px 0;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  ul li button {
+    margin-top: 10px;
+  }
+}
+
+/*  */
+
+/* Home section responsive fix */
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.home img {
+    width: 100%;
+    max-width: 500px; /* image scales */
+    margin: 20px auto;
+}
+
+.home-text {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Program & Plan Cards */
+.our-program, .ourplan, .ourblog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* spacing between cards */
+}
+
+.our-program .crd, .ourplan .card, .ourblog .blogcard {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .footertext {
+    margin: 10px;
+    width: 100%;
+    max-width: 250px;
+}
+
+/* Contact section */
+.contactpage {
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactpage img, .contacttext {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .our-program .crd, .ourplan .card, .ourblog .blogcard {
+        max-width: 100%;
+    }
+
+    .footer .footertext {
+        max-width: 100%;
+        text-align: center;
+    }
+}
